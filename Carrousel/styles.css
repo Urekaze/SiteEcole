@@ -96,17 +96,17 @@
 
 .bg-slide.active .circle.bg img,
 .bg-slide.after-active .circle.bg img {
-    transition-delay: .9s;
+    transition-delay: 1.2s;
 }
 
 .bg-slide.active .circle.large img,
 .bg-slide.after-active .circle.large img {
-    transition-delay: .6s;
+    transition-delay: .9s;
 }
 
 .bg-slide.active .circle.small img,
 .bg-slide.after-active .circle.small img {
-    transition-delay: .3s;
+    transition-delay: .6s;
 }
 
 .circle-darktransp {
