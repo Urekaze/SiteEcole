@@ -55,7 +55,7 @@ table {
     align-items: center;
 }
 
-/** Voir pour réduire la taille du bloc **/
+/** Voir pour réduire la taille du bloc 
 .wrapper-first {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
@@ -858,7 +858,7 @@ table {
     grid-row: 17;
     border: solid 1px black;
 }
-
+**/
 footer {
     display: flex;
     justify-content: center;
