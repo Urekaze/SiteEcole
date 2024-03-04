@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="http://127.0.0.1:5500/Carrousel/carrousel.html" class="logo">
+            <img src="./images/icons8-computer-60.png" alt="">
+        </a>
+        <nav class="navbar">
+            <a href="http://127.0.0.1:5500/Projets/index.html">Projets</a>
+            <a href="http://127.0.0.1:5500/Apropos/index.html">À propos</a>
+            <a href="http://127.0.0.1:5500/Competences/index.html">Compétences</a>
+            <a
+                href="http://127.0.0.1:5500/Contact/index.html?fullName=&username=#&email=&phoneNumber=&password=#&confirmPassword=#">Contact</a>
+        </nav>
+    </header>
+    <main class="main-container">
+        <div class="container">
+            <h1 class="form-title">Me contacter</h1>
+            <form action="#">
+                <div class="main-user-info">
+                    <div class="user-input-box">
+                        <label for="fullName">Nom et Prénom</label>
+                        <input type="text" id="fullName" name="fullName" placeholder="Entrer le nom et le prénom" />
+                    </div>
+                    <div class="user-input-box">
+                        <label for="username">Pseudo</label>
+                        <input type="text" id="username" name="username" placeholder="Entrer le pseudo" />
+                    </div>
+                    <div class="user-input-box">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Entrer l'adresse mail" />
+                    </div>
+                    <div class="user-input-box">
+                        <label for="phoneNumber">Téléphone</label>
+                        <input type="text" id="phoneNumber" name="phoneNumber"
+                            placeholder="Entrer le numéro de téléphone" />
+                    </div>
+                    <div class="user-input-box">
+                        <label for="password">Mot de passe</label>
+                        <input type="password" id="password" name="password" placeholder="Entrer le mot de passe" />
+                    </div>
+                    <div class="user-input-box">
+                        <label for="confirmPassword">Mot de passe</label>
+                        <input type="password" id="confirmPassword" name="confirmPassword"
+                            placeholder="Confimer le mot de passe" />
+                    </div>
+                </div>
+                <div class="gender-details-box">
+                    <span class="gender-title">Genre</span>
+                    <div class="gender-category">
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Monsieur</label>
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Madame</label>
+                        <input type="radio" name="gender" id="other">
+                        <label for="other">Autre</label>
+                    </div>
+                </div>
+                <div class="form-submit-btn">
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>© Xavier Léon All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

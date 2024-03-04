@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 80px;
+    background: #c90119;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.header .logo img {
+    width: 75%;
+}
+
+.logo {
+    width: 5vw;
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 15% 30% 10% 30%;
+    padding: 15px;
+    border: solid 5px white;
+    border-left-color:rgba(0, 0, 0, .1);
+    border-right-color:rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.Me {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.Company {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.Company-about {
+    margin-top: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #c90119;
+    padding: 20px;
+}
+
+footer p {
+    color: #fff;
+}
