@@ -94,6 +94,7 @@ table {
 }
 
 .bloc2 {
+    display: flex;
     background-image: url('images/Bloc2.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,8 +102,19 @@ table {
     height: 370px;
 }
 
+.date {
+    font-size: 10px;
+    margin-left: 29%;
+}
+
+.coche1 {
+    margin-top: 0.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .theme {
-    margin-left: 18%;
+    margin-left: 1%;
     margin-top: 1%;
 }
 
@@ -113,6 +125,74 @@ table {
     width: 50%;
     height: 524px;
     border: solid 1px #989589;
+}
+
+.ligne1 {
+    display: flex;
+}
+
+.instal {
+    margin-left: 1%;
+    margin-top: 3%;
+}
+
+.coche2 {
+    margin-top: 2%;
+    margin-left: 55%;
+    font-size: 24px;
+}
+.coche3 {
+    margin-top: 2%;
+    margin-left: 7.75%;
+    font-size: 24px;
+}
+
+.ligne3 {
+    display: flex;
+}
+
+.créa {
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.coche4 {
+    margin-left: 68%;
+    font-size: 24px;
+}
+
+.ligne4 {
+    display: flex;
+    margin-top: 21%;
+}
+
+.conf {
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.coche5 {
+    margin-left: 23%;
+    font-size: 24px;
+}
+
+.coche6 {
+    margin-left: 8.5%;
+    font-size: 24px;
+}
+
+.ligne5 {
+    display: flex;
+}
+
+.addOption {
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.coche7 {
+    margin-left: 43%;
+    font-size: 24px;
 }
 
 footer {
