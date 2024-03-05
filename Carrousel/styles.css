@@ -186,31 +186,3 @@
     background: #fff;
     z-index: 100;
 }
-
-/*.rotate-btn {
-    position: absolute;
-    bottom: 60px;
-    right: 60px;
-    width: 60px;
-    height: 60px;
-    background: #fff;
-    border: 2px solid white;
-    border-radius: 50%;
-    cursor: pointer;
-    z-index: 100;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.rotate-btn.active {
-    transform: rotate(360deg);
-    pointer-events: none;
-    transition: transform .5s cubic-bezier(0.645, 0.045, 0.355, 1);
-    transition-delay: .2s;
-}
-
-.rotate-btn i {
-    font-size: 40px;
-    color: #000000;
-}*/
