@@ -101,6 +101,11 @@ table {
     height: 370px;
 }
 
+.theme {
+    margin-left: 18%;
+    margin-top: 1%;
+}
+
 .bloc3 {
     background-image: url('images/Bloc3.png');
     background-repeat: no-repeat;
