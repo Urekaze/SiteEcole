@@ -105,12 +105,13 @@ table {
 .date {
     font-size: 10px;
     margin-left: 29%;
+    margin-top: 0.5%;
 }
 
 .coche1 {
-    margin-top: 0.5%;
     margin-left: auto;
     margin-right: auto;
+    font-size: 24px;
 }
 
 .theme {
