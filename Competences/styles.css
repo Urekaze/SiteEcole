@@ -94,12 +94,15 @@ table {
 }
 
 .bloc2 {
-    display: flex;
     background-image: url('images/Bloc2.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
     height: 370px;
+}
+
+.zabbix {
+    display: flex;
 }
 
 .date {
@@ -114,9 +117,28 @@ table {
     font-size: 24px;
 }
 
+.cochewhite {
+    color: white;
+}
+
 .theme {
     margin-left: 1%;
     margin-top: 1%;
+}
+
+.facebook {
+    display: flex;
+}
+
+.date2 {
+    font-size: 10px;
+    margin-left: 23.5%;
+    margin-top: 0.5%;
+}
+
+.cochebis {
+    margin-left: 24%;
+    font-size: 24px;
 }
 
 .bloc3 {
@@ -192,7 +214,7 @@ table {
 }
 
 .coche7 {
-    margin-left: 43%;
+    margin-left: 33%;
     font-size: 24px;
 }
 
