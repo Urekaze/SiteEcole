@@ -43,6 +43,11 @@ body {
     text-align: center;
 }
 
+.linkedin {
+    text-decoration: none;
+    color: #fff;
+}
+
 .wrapper .input-box {
     position: relative;
     width: 100%;
