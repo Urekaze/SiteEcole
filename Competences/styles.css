@@ -79,8 +79,8 @@ table {
 }
 
 .coche {
-    margin-left: 46%;
-    margin-top: 0.75%;
+    margin-left: 48%;
+    margin-top: 1.15%;
 }
 
 .portfolio {
@@ -122,7 +122,12 @@ table {
 }
 
 .theme {
-    margin-left: 1%;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.theme2 {
+    margin-left: 2%;
     margin-top: 1%;
 }
 
@@ -132,13 +137,14 @@ table {
 
 .date2 {
     font-size: 10px;
-    margin-left: 23.5%;
-    margin-top: 0.5%;
+    margin-left: 24%;
+    margin-top: 1%;
 }
 
 .cochebis {
     margin-left: 24%;
     font-size: 24px;
+    margin-top: auto;
 }
 
 .bloc3 {
