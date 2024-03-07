@@ -42,7 +42,7 @@ function nextSlide() {
     slides[nextIndex].classList.add('active');
 }
 
-const interval = setInterval(nextSlide, 15000); // Changement toutes les 15 secondes (15000 ms)
+const interval = setInterval(nextSlide, 10000); // Changement toutes les 10 secondes (15000 ms)
 
 function stopCarousel() {
     clearInterval(interval);
