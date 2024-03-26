@@ -18,7 +18,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 40px; 
+    padding: 30px 80px;
     background: #E0011c;
     display: flex;
     justify-content: space-between;
@@ -27,14 +27,15 @@ body {
 }
 
 .header .logo img {
-    width: 100%; 
-    max-width: 200px; 
+    width: 75%;
 }
 
 .logo {
-    width: 70px; 
-    font-size: 24px; 
-    margin-left: 10px; 
+    width: 5vw;
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 .navbar a {

@@ -18,7 +18,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px;
+    padding: 30px 80px;
     background: #c90119;
     display: flex;
     justify-content: space-between;
@@ -33,17 +33,17 @@ body {
 .logo {
     width: 5vw;
     font-size: 32px;
+    margin-left: 3%;
     color: #fff;
     text-decoration: none;
     font-weight: 700;
 }
 
 .navbar a {
-    font-size: 18px;
-    color: #fff;
+    font-size: 16px; 
+    margin-left: 20px;
     text-decoration: none;
-    font-weight: 500;
-    margin-left: 50px;
+    color: white;
 }
 
 .container {
@@ -78,16 +78,16 @@ footer p {
 /* Media query pour les smartphones */
 @media screen and (max-width: 768px) {
     .header {
-        padding: 15px 20px;
-    }
-
-    .navbar a {
-        margin-left: 7%;
+        padding: 15px;
     }
 
     .logo {
-        width: 8vw;
+        width: 12vw;
         font-size: 24px;
+    }
+
+    .navbar a {
+        font-size: 12px;
     }
 
     .container {
