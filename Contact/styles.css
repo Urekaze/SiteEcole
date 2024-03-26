@@ -51,12 +51,12 @@ body {
     }
 
     .logo {
-        width: 8vw;
+        width: 12vw;
         font-size: 24px;
     }
 
     .navbar a {
-        margin-left: 7%;
+        font-size: 12px;
     }
 }
 

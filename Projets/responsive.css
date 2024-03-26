@@ -33,11 +33,10 @@
 }
 
 .navbar a {
-    font-size: 18px;
-    color: #fff;
+    font-size: 16px; 
+    margin-left: 20px;
     text-decoration: none;
-    font-weight: 500;
-    margin-left: 50px;
+    color: white;
 }
 
 main {
@@ -102,13 +101,12 @@ footer p {
     }
 
     .logo {
-        width: 15vw;
+        width: 12vw;
         font-size: 24px;
     }
 
     .navbar a {
-        font-size: 16px;
-        margin-left: 20px;
+        font-size: 12px;
     }
 
     main {
