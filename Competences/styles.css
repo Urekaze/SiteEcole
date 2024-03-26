@@ -40,14 +40,6 @@
     margin-left: 50px;
 }
 
-/*
-table {
-    margin-top: 20%;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-*/
-
 .container {
     display: flex;
     flex-direction: column;
@@ -56,189 +48,13 @@ table {
 }
 
 .bloc1 {
-    background-image: url('images/Bloc1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50%;
-    height: 500px;
+    width: 60%;
+    border: solid grey 2px;
     margin-top: 15%;
 }
 
-.name {
-    margin-left: 15%;
-    margin-top: 1%;
-}
-
-.ligne2 {
-    display: flex;
-}
-
-.charmilles {
-    margin-left: 18%;
-    margin-top: 1%;
-}
-
-.coche {
-    margin-left: 46%;
-    margin-top: 0.75%;
-}
-
-.portfolio {
-    margin-left: 23%;
-    margin-top: 1%;
-}
-
-.portfolio a {
-    text-decoration: none;
-    color: black;
-}
-
-.bloc2 {
-    background-image: url('images/Bloc2.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50%;
-    height: 370px;
-}
-
-.zabbix {
-    display: flex;
-}
-
-.date {
-    font-size: 10px;
-    margin-left: 29%;
-    margin-top: 0.5%;
-}
-
-.coche1 {
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 24px;
-}
-
-.cochewhite {
-    color: white;
-}
-
-.theme {
-    margin-left: 1%;
-    margin-top: 1%;
-}
-
-.facebook {
-    display: flex;
-}
-
-.date2 {
-    font-size: 10px;
-    margin-left: 23.5%;
-    margin-top: 0.5%;
-}
-
-.cochebis {
-    margin-left: 24%;
-    font-size: 24px;
-}
-
-.bloc3 {
-    background-image: url('images/Bloc3.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50%;
-    height: 524px;
-    border: solid 1px #989589;
-}
-
-.date3 {
-    font-size: 10px;
-    margin-left: 17%;
-    margin-top: 2%;
-}
-
-.date4 {
-    font-size: 10px;
-    margin-left: 11%;
-}
-
-.ligne1 {
-    display: flex;
-}
-
-.instal {
-    margin-left: 1%;
-    margin-top: 3%;
-}
-
-.coche2 {
-    margin-top: 2%;
-    margin-left: 34%;
-    font-size: 24px;
-}
-.coche3 {
-    margin-top: 2%;
-    margin-left: 7.75%;
-    font-size: 24px;
-}
-
-.ligne3 {
-    display: flex;
-}
-
-.créa {
-    margin-left: 1%;
-    margin-top: 1%;
-}
-
-.coche4 {
-    margin-left: 52.5%;
-    font-size: 24px;
-}
-
-.ligne4 {
-    display: flex;
-    margin-top: 21%;
-}
-
-.conf {
-    margin-left: 1%;
-    margin-top: 1%;
-}
-
-.date5 {
-    font-size: 10px;
-    margin-left: 14.5%;
-    margin-top: 0.5%;
-}
-
-.date6 {
-    font-size: 10px;
-    margin-left: 4.5%;
-    margin-top: 0.5%;
-}
-
-.coche5 {
-    margin-left: 4.5%;
-    font-size: 24px;
-}
-
-.coche6 {
-    margin-left: 8%;
-    font-size: 24px;
-}
-
-.ligne5 {
-    display: flex;
-}
-
-.addOption {
-    margin-left: 1%;
-    margin-top: 1%;
-}
-
-.coche7 {
-    margin-left: 23.5%;
-    font-size: 24px;
+img {
+    width: 100%;
 }
 
 footer {
@@ -252,3 +68,30 @@ footer {
 footer p {
     color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+    .header {
+      padding: 15px;
+    }
+    
+    .navbar a {
+      margin-left: 10px;
+    }
+    
+    .logo {
+      font-size: 20px;
+    }
+    
+    .container {
+      margin: 10% 25px;
+    }
+
+    .bloc1 {
+        background-image: url('images/Bloc1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+        height: 200px;
+        margin-top: 15%;
+    }
+  }
