@@ -12,7 +12,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 80px;
+    padding: 20px;
     background: #c90119;
     display: flex;
     justify-content: space-between;
@@ -71,27 +71,24 @@ footer p {
 
 @media screen and (max-width: 768px) {
     .header {
-      padding: 15px;
+        padding: 15px 20px;
     }
-    
+
     .navbar a {
-      margin-left: 10px;
+        margin-left: 10px;
     }
-    
+
     .logo {
-      font-size: 20px;
+        width: 15vw;
+        font-size: 24px;
     }
-    
+
     .container {
-      margin: 10% 25px;
+        margin: 10% 25px;
     }
 
     .bloc1 {
-        background-image: url('images/Bloc1.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 50%;
-        height: 200px;
-        margin-top: 15%;
+        width: 90%; /* Ajustez la largeur pour les smartphones */
+        margin-top: 20%; /* Ajustez l'espacement pour les smartphones */
     }
-  }
+}
