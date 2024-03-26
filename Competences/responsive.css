@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 30px; /* Réduit l'espacement pour les smartphones */
+    background: #c90119;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.header .logo img {
+    width: 75%;
+}
+
+.logo {
+    width: auto; /* Ajuste la largeur de la zone de logo en fonction de la taille du contenu */
+    font-size: 24px; /* Réduit la taille de la police pour les smartphones */
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    font-size: 16px; /* Réduit la taille de la police pour les smartphones */
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px; /* Réduit la marge pour les smartphones */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloc1,
+.bloc2,
+.bloc3 {
+    width: 90%; /* Ajuste la largeur des blocs pour les smartphones */
+    max-width: 400px; /* Limite la largeur maximale pour éviter le débordement sur les petits écrans */
+    margin-top: 10%; /* Réduit l'espacement pour les smartphones */
+}
+
+.name,
+.charmilles,
+.portfolio,
+.date,
+.theme,
+.date2,
+.date3,
+.date4,
+.date5,
+.date6,
+.instal,
+.créa,
+.conf,
+.addOption {
+    margin-left: 5%; /* Réduit la marge pour les smartphones */
+    margin-top: 1%; /* Réduit l'espacement pour les smartphones */
+}
+
+.ligne2,
+.zabbix,
+.facebook,
+.ligne1,
+.ligne3,
+.ligne4,
+.ligne5 {
+    display: flex;
+}
+
+.ligne4,
+.ligne5 {
+    margin-top: 5%; /* Réduit l'espacement pour les smartphones */
+}
+
+.coche,
+.coche1,
+.coche2,
+.coche3,
+.coche4,
+.coche5,
+.coche6,
+.coche7 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px; /* Réduit la taille de la police pour les smartphones */
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #c90119;
+    padding: 20px;
+    margin-top: 10%; /* Réduit l'espacement pour les smartphones */
+}
+
+footer p {
+    color: #fff;
+}
