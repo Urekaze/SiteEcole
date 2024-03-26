@@ -69,6 +69,7 @@ footer p {
     color: #fff;
 }
 
+/* Media query pour les smartphones */
 @media screen and (max-width: 768px) {
     .header {
         padding: 15px 20px;
@@ -88,7 +89,7 @@ footer p {
     }
 
     .bloc1 {
-        width: 90%; /* Ajustez la largeur pour les smartphones */
-        margin-top: 20%; /* Ajustez l'espacement pour les smartphones */
+        width: 90%; 
+        margin-top: 20%; 
     }
 }
